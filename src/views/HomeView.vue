@@ -3,19 +3,16 @@
     <v-app>
       <v-container fluid class="main-container">
         <div class="low">
-
           <v-toolbar class="transparent-navbar">
             <v-toolbar-title>
               <span class="planmylife-title">
                 <v-avatar style="margin-bottom:12px;" size="36" class="mr-2">
                   <v-img src="../assets/calm.png" ></v-img>
                 </v-avatar>
-
                 <i>PlanMyLife</i></span
               >
             </v-toolbar-title>
             <v-spacer></v-spacer>
-
             <v-toolbar-items class="navbar-buttons">
               <v-btn depressed color="#C9EEFF" class="custom-button pa-5"
                 >Donacija</v-btn
@@ -29,14 +26,12 @@
             </v-toolbar-items>
           </v-toolbar>
         </div>
-
         <v-row>
           <v-col cols="6">
             <div>
               <h2 class="subtitle light-sheet2">
                 Dobrodošli na našu self-help aplikaciju!
               </h2>
-
               <v-sheet class="pa-4 light-sheet">
                 <p>
                   Shvaćamo koliko je važno biti produktivan, organiziran i
@@ -47,7 +42,6 @@
               </v-sheet>
             </div>
           </v-col>
-
           <v-col cols="6">
             <v-img
               src="../assets/writting.jpg"
@@ -57,7 +51,6 @@
             ></v-img>
           </v-col>
         </v-row>
-
         <v-row>
           <v-col cols="6">
             <v-img
@@ -66,7 +59,6 @@
               class="img1"
             ></v-img>
           </v-col>
-
           <v-col cols="6">
             <div class="align">
               <h2 class="subtitle light-sheet3">
@@ -94,7 +86,6 @@
             </div>
           </v-col>
         </v-row>
-
         <v-row class="justify-center">
           <v-col cols="6">
             <v-sheet class="pa-4 light-sheet4">
@@ -108,7 +99,6 @@
               </p>
             </v-sheet>
           </v-col>
-
           <v-col cols="6">
             <v-img
               src="../assets/meditation.jpg"
@@ -118,7 +108,6 @@
             ></v-img>
           </v-col>
         </v-row>
-
         <v-footer class="sticky-footer">
           <v-sheet class="pa-5" color="black" rounded elevation="12">
             <v-row justify="center">
@@ -171,43 +160,35 @@
     </v-app>
   </div>
 </template>
-
 <style scoped>
 .custom-paragraph {
   margin-right: 200px;
 }
-
 .align {
   margin-right: 150px;
 }
-
 .main-container {
   background-color: rgb(158, 224, 158);
   margin-bottom: 0px;
 }
-
 .low {
   margin-bottom: 125px;
 }
-
 .transparent-navbar {
   background-color: transparent;
   box-shadow: none;
 }
-
 .planmylife-title {
   font-size: 50px;
   font-family: "Consolas Italic";
   font-weight: bold;
   color: #000000;
 }
-
 .custom-button {
   color: #000000;
   font-weight: bold;
   margin-left: 16px;
 }
-
 .img1 {
   width: 600px;
   height: 600px;
@@ -216,19 +197,16 @@
   margin-bottom: 100px;
   padding: 50px;
 }
-
 .img2 {
   width: 525px;
   height: 525px;
   border-radius: 20px;
   margin-bottom: 125px;
 }
-
 .transparent-navbar {
   background-color: transparent;
   box-shadow: none;
 }
-
 .subtitle {
   margin-top: 0;
   margin-left: 50px;
@@ -236,15 +214,12 @@
   font-size: 40px;
   font-family: "Gadugi";
 }
-
 .pa-4 {
   font-size: 25px;
 }
-
 .pa-5 {
   font-size: 20px;
 }
-
 .light-sheet0 {
   background-color: #ead9d9 !important;
   color: rgb(0, 0, 0) !important;
@@ -261,7 +236,6 @@
   margin-bottom: 80px;
   margin-left: 145px;
 }
-
 .light-sheet2 {
   background-color: #fbbf6a !important;
   color: rgb(0, 0, 0) !important;
@@ -270,7 +244,6 @@
   text-align: center;
   margin-left: 75px;
 }
-
 .light-sheet3 {
   background-color: #fbbf6a !important;
   color: rgb(0, 0, 0) !important;
@@ -279,7 +252,6 @@
   text-align: center;
   margin-left: -10px;
 }
-
 .light-sheet4 {
   background-color: #ead9d9 !important;
   color: rgb(0, 0, 0) !important;
@@ -288,13 +260,11 @@
   margin-bottom: 80px;
   margin-left: 130px;
 }
-
 .sticky-footer {
   margin-top: 50px;
   background-color: #c751fe !important;
   border-radius: 30px;
 }
-
 .button1,
 .button2,
 .button3,
@@ -302,7 +272,6 @@
   transition: background-color 0.3s;
   background-color: rgb(202, 65, 65);
 }
-
 .button1,
 .button3 {
   margin-right: 1000px;
